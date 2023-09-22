@@ -1,4 +1,4 @@
-<img src="meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
+<img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
 
 # ngx-phosphor-icons
 
@@ -49,12 +49,12 @@ You can choose the type of icon of your choice, if you only want to load the pac
 
 |  Module | Weight  | Example | View |
 |---|---|---|---|
-| NgxPhosphorIconsBoldModule  | Bold | ```<mat-icon svgIcon="ph-bold:name_icon"></mat-icon>``` | <img src="meta/Bold.png" width="120" align="center" /> |
-| NgxPhosphorIconsDuotoneModule | Duotone |  ```<mat-icon svgIcon="ph-duotone:name_icon"></mat-icon>``` | <img src="meta/Duotone.png" width="120" align="center" />  |
-| NgxPhosphorIconsFillModule | Fill  |  ```<mat-icon svgIcon="ph-fill:name_icon"></mat-icon>``` |  <img src="meta/Fill.png" width="120" align="center" /> |
-| NgxPhosphorIconsLightModule  | Light |  ```<mat-icon svgIcon="ph-light:name_icon"></mat-icon>``` | <img src="meta/Light.png" width="120" align="center" />  |
-| NgxPhosphorIconsRegularModule  | Regular |  ```<mat-icon svgIcon="ph-regular:name_icon"></mat-icon>``` | <img src="meta/Regular.png" width="120" align="center" /> |
-| NgxPhosphorIconsThinModule  | Thin  |  ```<mat-icon svgIcon="ph-thin:name_icon"></mat-icon>``` | <img src="meta/Thin.png" width="120" align="center" />  |
+| NgxPhosphorIconsBoldModule  | Bold | ```<mat-icon svgIcon="ph-bold:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Bold.png" width="120" align="center" /> |
+| NgxPhosphorIconsDuotoneModule | Duotone |  ```<mat-icon svgIcon="ph-duotone:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Duotone.png" width="120" align="center" />  |
+| NgxPhosphorIconsFillModule | Fill  |  ```<mat-icon svgIcon="ph-fill:name_icon"></mat-icon>``` |  <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Fill.png" width="120" align="center" /> |
+| NgxPhosphorIconsLightModule  | Light |  ```<mat-icon svgIcon="ph-light:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Light.png" width="120" align="center" />  |
+| NgxPhosphorIconsRegularModule  | Regular |  ```<mat-icon svgIcon="ph-regular:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Regular.png" width="120" align="center" /> |
+| NgxPhosphorIconsThinModule  | Thin  |  ```<mat-icon svgIcon="ph-thin:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Thin.png" width="120" align="center" />  |
 
 
 #### Module File Import (2)
@@ -111,7 +111,7 @@ You can use the icons in different ways, please read the [@angular/Material](htt
 ##### Decorative icons
 When the icon is purely cosmetic and conveys no real semantic meaning, the ```<mat-icon>``` element is marked with ```aria-hidden="true"```.
 
-#####Interactive icons
+##### Interactive icons
 Icons alone are not interactive elements for screen-reader users; when the user would interact with some icon on the page, a more appropriate element should "own" the interaction:
 
 The ```<mat-icon>``` element should be a child of a ```<button>``` or ```<a>``` element.
