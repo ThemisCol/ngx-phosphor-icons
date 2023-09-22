@@ -3,24 +3,24 @@
     "version": "1.0.0",
     "description": "Beautiful credit cards for your payment forms",
     "keywords": [
-    "icons",
-    "icon-pack",
-    "angular",
-    "svg-icons",
-    "html",
-    "web",
-    "svg",
-    "ng-component"
+        "icons",
+        "icon-pack",
+        "angular",
+        "svg-icons",
+        "html",
+        "web",
+        "svg",
+        "ng-component"
     ],
-    "author": {
-    "name": "Luis Gutierrez",
-    "email": "legutierrezv@correo.udistrital.edu.co",
-    "url": "https://github.com/ThemisCol"
+        "author": {
+        "name": "Luis Gutierrez",
+        "email": "legutierrezv@correo.udistrital.edu.co",
+        "url": "https://github.com/ThemisCol"
     },
-    "license": "MIT",
-    "homepage": "https://github.com/ThemisCol/ngx-phosphor-icons#readme",
-    "bugs": {
-    "url": "https://github.com/ThemisCol/ngx-phosphor-icons/issues",
-    "email": "legutierrezv@correo.udistrital.edu.co"
+        "license": "MIT",
+        "homepage": "https://github.com/ThemisCol/ngx-phosphor-icons#readme",
+        "bugs": {
+        "url": "https://github.com/ThemisCol/ngx-phosphor-icons/issues",
+        "email": "legutierrezv@correo.udistrital.edu.co"
     }
 }
