@@ -22,7 +22,7 @@ npm install --save ngx-phosphor-icons
 
 There are two ways of implementation, choose the one you like best.
 
-#### Module Import (1)
+#### Module Import (Option 1)
 
 Simply import the **NgxPhosphorIconsModule** into the AppModule so that the entire project can use the icons, or into the module you require. **(This module has all types of icons)**.
 
@@ -49,15 +49,15 @@ You can choose the type of icon of your choice, if you only want to load the pac
 
 |  Module | Weight  | Example | View |
 |---|---|---|---|
-| NgxPhosphorIconsBoldModule  | Bold | ```<mat-icon svgIcon="ph-bold:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Bold.png" width="120" align="center" /> |
-| NgxPhosphorIconsDuotoneModule | Duotone |  ```<mat-icon svgIcon="ph-duotone:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Duotone.png" width="120" align="center" />  |
-| NgxPhosphorIconsFillModule | Fill  |  ```<mat-icon svgIcon="ph-fill:name_icon"></mat-icon>``` |  <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Fill.png" width="120" align="center" /> |
-| NgxPhosphorIconsLightModule  | Light |  ```<mat-icon svgIcon="ph-light:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Light.png" width="120" align="center" />  |
-| NgxPhosphorIconsRegularModule  | Regular |  ```<mat-icon svgIcon="ph-regular:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Regular.png" width="120" align="center" /> |
-| NgxPhosphorIconsThinModule  | Thin  |  ```<mat-icon svgIcon="ph-thin:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Thin.png" width="120" align="center" />  |
+| <small>NgxPhosphorIconsBoldModule</small>  | <small>Bold</small> | `<mat-icon svgIcon="ph-bold:name_icon"></mat-icon>` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Bold.png" width="120" align="center" /> |
+| <small>NgxPhosphorIconsDuotoneModule</small> | <small>Duotone</small> |  `<mat-icon svgIcon="ph-duotone:name_icon"></mat-icon>` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Duotone.png" width="120" align="center" />  |
+| <small>NgxPhosphorIconsFillModule</small> | <small>Fill</small>  |  ```<mat-icon svgIcon="ph-fill:name_icon"></mat-icon>``` |  <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Fill.png" width="120" align="center" /> |
+| <small>NgxPhosphorIconsLightModule</small>  | <small>Light</small> |  ```<mat-icon svgIcon="ph-light:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Light.png" width="120" align="center" />  |
+| <small>NgxPhosphorIconsRegularModule</small>  | <small>Regular</small> |  ```<mat-icon svgIcon="ph-regular:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Regular.png" width="120" align="center" /> |
+| <small>NgxPhosphorIconsThinModule</small>  | <small>Thin</small>  |  ```<mat-icon svgIcon="ph-thin:name_icon"></mat-icon>``` | <img src="https://github.com/ThemisCol/ngx-phosphor-icons/raw/main/projects/ngx-phosphor-icons/meta/Thin.png" width="120" align="center" />  |
 
 
-#### Module File Import (2)
+#### Module File Import (Option 2)
 
 This form of import has the same characteristics, only that the file is consulted when starting the **angular.json**. The Modules Change Name and include the **"File"** Label
 
@@ -74,20 +74,22 @@ In the **"input"** path: You can specify only one import file if you want or lea
       }
   ],
 ```                    
-##### Module List
-<ul>
-  <li>NgxPhosphorIconsFileModule (All).</li>
-  <li>NgxPhosphorIconsBoldFileModule (Bold).</li>
-  <li>NgxPhosphorIconsDuotoneFileModule (Duotone).</li>
-  <li>NgxPhosphorIconsLightFileModule (Light).</li>
-  <li>NgxPhosphorIconsRegularFileModule (Regular).</li>
-  <li>NgxPhosphorIconsFillFileModule (Fill).</li>
-  <li>NgxPhosphorIconsThinFileModule (Thin).</li>
-</ul>
+#### Module File List
+
+
+|  Module | Weight  | Example |
+|---|---|---|
+| <small>NgxPhosphorIconsBoldFileModule</small>  | <small>All</small> | `node_modules/ngx-phosphor-icons/icons/` |
+| <small>NgxPhosphorIconsBoldFileModule</small>  | <small>Bold</small> | `node_modules/ngx-phosphor-icons/icons/phosphor-bold.svg` | 
+| <small>NgxPhosphorIconsDuotoneFileModule</small> | <small>Duotone</small> | `node_modules/ngx-phosphor-icons/icons/phosphor-duotone.svg` | 
+| <small>NgxPhosphorIconsLightFileModule</small> | <small>Fill</small> | `node_modules/ngx-phosphor-icons/icons/phosphor-light.svg` | 
+| <small>NgxPhosphorIconsRegularFileModule</small>  | <small>Regular</small> | `node_modules/ngx-phosphor-icons/icons/phosphor-regular.svg` | 
+| <small>NgxPhosphorIconsFillFileModule</small>  | <small>Fill</small> | `node_modules/ngx-phosphor-icons/icons/phosphor-fill.svg` | 
+| <small>NgxPhosphorIconsThinFileModule</small>  | <small>Thin</small>  | `node_modules/ngx-phosphor-icons/icons/phosphor-thin.svg` | 
 
 ### Props
 
-Icon components accept all props that you can pass to a normal SVG element, including inline `style` objects, `onClick` handlers, and more.
+Icon components accept all props that you can pass to a normal SVG element, including inline `style` objects, `click` handlers, and more.
 
 The properties are defined by Angular and [@angular/material/icon](https://material.angular.io/components/icon/api)
 
@@ -117,6 +119,8 @@ Icons alone are not interactive elements for screen-reader users; when the user 
 The ```<mat-icon>``` element should be a child of a ```<button>``` or ```<a>``` element.
 The parent ```<button>``` or ```<a>``` should either have a meaningful label provided either through direct text content, ```aria-label```, or ```aria-labelledby```.
 
+#### Example
+
 ```tsx
 
   // Icon
@@ -134,7 +138,11 @@ The parent ```<button>``` or ```<a>``` should either have a meaningful label pro
   ...
 ```
 
+### Donate
 
+If you can help me I will appreciate it very much.
+
+<a href="https://www.buymeacoffee.com/legutierrez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 ## Our Related Projects
 
 - [@phosphor-icons/core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
@@ -159,4 +167,4 @@ The parent ```<button>``` or ```<a>``` should either have a meaningful label pro
 - [eleventy-plugin-phosphoricons](https://github.com/reatlat/eleventy-plugin-phosphoricons) ▲ An Eleventy plugin for add shortcode, allows Phosphor icons to be embedded as inline svg into templates
 ## LICENSE
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](https://github.com/ThemisCol/ngx-phosphor-icons/blob/main/LICENSE).
