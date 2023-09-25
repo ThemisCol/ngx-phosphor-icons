@@ -142,7 +142,9 @@ The parent ```<button>``` or ```<a>``` should either have a meaningful label pro
 
 If you can help me I will appreciate it very much.
 
-<a href="https://www.buymeacoffee.com/legutierrez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/legutierrez" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"  width="155"  alt="Buy Me A Coffee"></a>
+
 ## Our Related Projects
 
 - [@phosphor-icons/core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
