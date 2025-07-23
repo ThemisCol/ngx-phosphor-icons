@@ -1,30 +1,30 @@
 {
-    "name": "ngx-phosphor-icons",
-    "version": "1.0.5",
-    "description": "A flexible icon family for interfaces, diagrams, presentations — whatever, really.",
-    "keywords": [
-        "icons",
-        "icon-pack",
-        "angular",
-        "svg-icons",
-        "html",
-        "web",
-        "svg",
-        "ux",
-        "phosphor",
-        "UI",
-        "UX",
-        "ng-component"
-    ],
-        "author": {
-        "name": "Luis Gutierrez",
-        "email": "legutierrezve@gmail.com",
-        "url": "https://github.com/ThemisCol"
-    },
-        "license": "MIT",
-        "homepage": "https://github.com/ThemisCol/ngx-phosphor-icons#readme",
-        "bugs": {
-        "url": "https://github.com/ThemisCol/ngx-phosphor-icons/issues",
-        "email": "legutierrezve@gmail.com"
-    }
+  "name": "ngx-phosphor-icons",
+  "version": "1.0.6",
+  "description": "A flexible icon family for interfaces, diagrams, presentations — whatever, really.",
+  "keywords": [
+    "icons",
+    "icon-pack",
+    "angular",
+    "svg-icons",
+    "html",
+    "web",
+    "svg",
+    "ux",
+    "phosphor",
+    "UI",
+    "UX",
+    "ng-component"
+  ],
+  "author": {
+    "name": "Luis Gutierrez",
+    "email": "legutierrezve@gmail.com",
+    "url": "https://github.com/ThemisCol"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ThemisCol/ngx-phosphor-icons#readme",
+  "bugs": {
+    "url": "https://github.com/ThemisCol/ngx-phosphor-icons/issues",
+    "email": "legutierrezve@gmail.com"
+  }
 }
