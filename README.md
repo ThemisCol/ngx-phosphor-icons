@@ -7,7 +7,7 @@ Phosphor is a flexible icon family for interfaces, diagrams, presentations, butt
 **ngx-phosphor-icons** It is designed to be used together with [@angular/Material](https://material.angular.io/) since it seeks to integrate the Phosphor icons into [@angular/material/icon](https://material.angular.io/components/icon/api), allowing it to be used in an easy and orderly way.
 
 <ul>
-  <li>1,248 icons and counting</li>
+  <li>1,512 icons and counting</li>
   <li>6 weights: Thin, Light, Regular, Bold, Fill, and Duotone</li>
   <li>Raw stroke information retained to fine-tune the style</li>
 </ul>
