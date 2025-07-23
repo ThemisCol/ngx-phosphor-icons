@@ -31,3 +31,4 @@ export * from './lib/ph-thin/ngx-phosphor-icons-thin.module';
 
 // all icons
 export * from './lib/ngx-phosphor-icons.module';
+export * from './lib/ngx-phosphor-icons-file.module';

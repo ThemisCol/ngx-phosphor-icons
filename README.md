@@ -78,7 +78,7 @@ In the **"input"** path: You can specify only one import file if you want or lea
 
 | Module                                           | Weight                 | Example                                                      |
 | ------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
-| <small>NgxPhosphorIconsBoldFileModule</small>    | <small>All</small>     | `node_modules/ngx-phosphor-icons/icons/`                     |
+| <small>NgxPhosphorIconsFileModule</small>        | <small>All</small>     | `node_modules/ngx-phosphor-icons/icons/`                     |
 | <small>NgxPhosphorIconsBoldFileModule</small>    | <small>Bold</small>    | `node_modules/ngx-phosphor-icons/icons/phosphor-bold.svg`    |
 | <small>NgxPhosphorIconsDuotoneFileModule</small> | <small>Duotone</small> | `node_modules/ngx-phosphor-icons/icons/phosphor-duotone.svg` |
 | <small>NgxPhosphorIconsLightFileModule</small>   | <small>Fill</small>    | `node_modules/ngx-phosphor-icons/icons/phosphor-light.svg`   |
@@ -103,7 +103,7 @@ In the [phosphoricons.com](https://phosphoricons.com). documentation the icon ca
 In this implementation the **width** type and icon name are called
 
 ```tsx
-"ph-bold:graduation-cap";
+<mat-icon svgIcon="ph-bold:graduation-cap"></mat-icon>
 ```
 
 You can use the icons in different ways, please read the [@angular/Material](https://material.angular.io/) documentation.
